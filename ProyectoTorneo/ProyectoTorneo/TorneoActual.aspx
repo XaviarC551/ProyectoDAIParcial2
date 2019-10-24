@@ -48,7 +48,7 @@
                     <asp:Button ID="Button3" runat="server" Text="Acabar" />
                 </div>
             </div>
-            <div>
+            <div style="background-image: url('Images/BracketsTorneo.jpg'); height: 660px; width: 1308px; text-align:center;">
 
             </div>
         </div>

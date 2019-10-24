@@ -19,7 +19,6 @@ namespace ProyectoTorneo
             }
             String cTorneo = Session["cTorneo"].ToString();
             String nombreTorneo = Session["nombreTorneo"].ToString();
-
             Label1.Text = nombreTorneo;
             
             if(ListBox1.Items.Count == 0)
@@ -42,7 +41,7 @@ namespace ProyectoTorneo
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("TorneoActual.aspx");
         }
 
         protected void ButtonEliminaJugador_Click(object sender, EventArgs e)

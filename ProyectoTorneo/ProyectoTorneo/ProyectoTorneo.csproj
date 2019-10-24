@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ganador.aspx" />
+    <Content Include="Images\BracketsTorneo.jpg" />
+    <Content Include="Images\TorneoBrackets.jpg" />
     <Content Include="LoadingTorneo.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Partida.aspx" />

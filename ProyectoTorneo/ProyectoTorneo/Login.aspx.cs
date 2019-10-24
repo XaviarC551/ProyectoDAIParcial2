@@ -70,6 +70,7 @@ namespace ProyectoTorneo
                 if(CheckBoxEsEspectador.Checked)
                 {
                     Session.Add("cTorneo", cTorneo);
+                    Session.Add("nombreTorneo", nombreTorneo);
                     Response.Redirect("LoadingTorneo.aspx");
                 }
                 LabelDatosCorrectos.Text = "Datos incorrectos.";
