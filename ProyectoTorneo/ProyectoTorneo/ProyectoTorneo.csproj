@@ -73,6 +73,7 @@
     <Content Include="LoadingTorneo.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Partida.aspx" />
+    <Content Include="Prueba.aspx" />
     <Content Include="Registra.aspx" />
     <Content Include="RegistraTorneo.aspx" />
     <Content Include="TorneoActual.aspx" />
@@ -109,6 +110,13 @@
       <DependentUpon>Partida.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prueba.aspx.cs">
+      <DependentUpon>Prueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prueba.aspx.designer.cs">
+      <DependentUpon>Prueba.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Registra.aspx.cs">
       <DependentUpon>Registra.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
